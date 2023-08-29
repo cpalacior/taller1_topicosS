@@ -1,0 +1,12 @@
+En el archivo .env 
+.....
+DB_PORT=3307 ----> poner tu puerto
+DB_DATABASE=taller1 ------> poner la base de datos donde se va a revisar este taller
+DB_USERNAME=root ------> poner tu nombre de usuario de mysql
+DB_PASSWORD= ------> poner tu contraseña de mysql
+.....
+
+se debe correr el migrate 
+>>php artisan migrate
+
+la ruta inicial a acceder es /
